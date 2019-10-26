@@ -1,0 +1,19 @@
+## Interface: 81000
+## Title: AlphaZero
+## Author: IkeCube
+## Version: 0.01.8100
+UnitFrames.lua
+BuffFrame.lua
+MiniMapCluster.lua
+
+## TODO:
+## Replace Bartender
+##   Action Bar Modifiers (Shift/Alt/Cntl)
+##   Set Alpha of Bags/Bars in/out of combat/on mouse over
+##   Set location of spell cooldowns & procs on player frame
+## Fix Buff Frame on instance load
+##  Stack buffs in correct order
+##  Stack debuffs in correct order
+## Get MiniMap Cluster workign on mouseover
+## Set up clear chat, notification of whispers, name notifications
+## Change clock to player coordinates
