@@ -47,3 +47,6 @@ GeneralDockManager:SetScript("OnEnter",eventHandler);
 GeneralDockManager:SetScript("OnLeave",eventHandler);
 
 eventHandler();
+
+-- /run QuickJoinToastButton:Hide(); ChatFrameChannelButton:Hide(); ChatFrameToggleVoiceDeafenButton:Hide(); ChatFrameToggleVoiceMuteButton:Hide(); ChatFrameMenuButton:Hide();ChatFrame1EditBox:Hide();
+-- /run _CHATHIDE=not _CHATHIDE for i=1,NUM_CHAT_WINDOWS do for _,v in pairs{"","Tab"}do local f=_G["ChatFrame"..i..v]if _CHATHIDE then f.v=f:IsVisible()end f.ORShow=f.ORShow or f.Show f.Show=_CHATHIDE and f.Hide or f.ORShow if f.v then f:Show()end end end
