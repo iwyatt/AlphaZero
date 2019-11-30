@@ -5,15 +5,14 @@
 UnitFrames.lua
 BuffFrame.lua
 MiniMapCluster.lua
+ObjectiveTracker.lua
 
 ## TODO:
 ## Replace Bartender
 ##   Action Bar Modifiers (Shift/Alt/Cntl)
 ##   Set Alpha of Bags/Bars in/out of combat/on mouse over
 ##   Set location of spell cooldowns & procs on player frame
-## Fix Buff Frame on instance load
-##  Stack buffs in correct order
-##  Stack debuffs in correct order
-## Get MiniMap Cluster workign on mouseover
 ## Set up clear chat, notification of whispers, name notifications
-## Change clock to player coordinates
+## Change clock to player coordinates (on mouse over)
+## Get MiniMap Cluster workign on mouseover
+## Inspired by: https://www.wowinterface.com/forums/showthread.php?t=55800
