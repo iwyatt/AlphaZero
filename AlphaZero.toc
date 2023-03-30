@@ -1,6 +1,6 @@
 ## Interface: 81000
 ## Title: AlphaZero
-## Author: IkeCube
+## Author: Isaac
 ## Version: 0.01.8100
 UnitFrames.lua
 BuffFrame.lua
