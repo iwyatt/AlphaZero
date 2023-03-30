@@ -1,6 +1,6 @@
 # AlphaZero
 A custom World of Warcraft user interface for Legion, Battle for Azeroth, and Shadowlands that: 
-- hides:
+- automaticaly hides and unhides:
  - minimap, 
  - objective tracker, 
  - bags
